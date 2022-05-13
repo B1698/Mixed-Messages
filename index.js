@@ -18,9 +18,6 @@ function generateRandomNumber(num) {
       case 'mood':
         intimateBase.push(`If you are feeling "${generalBase[prop][optionIdx]}".`)
         break
-      case 'motivationalOutput':
-        intimateBase.push(`It is known that "${generalBase[prop][optionIdx]}".`)
-        break
       case 'advice':
         intimateBase.push(`You should: "${generalBase[prop][optionIdx]}".`)
         break
